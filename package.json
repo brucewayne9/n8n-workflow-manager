@@ -1,0 +1,27 @@
+{
+    "name": "n8n-workflow-manager",
+    "version": "1.0.0",
+    "description": "Programmatic n8n workflow deployment tool",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node test-connection.js",
+        "create-workflow": "node create-workflow.js",
+        "list-workflows": "node list-workflows.js",
+        "delete-workflow": "node delete-workflow.js",
+        "update-config": "node update-config.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.0",
+        "dotenv": "^16.3.0"
+    },
+    "keywords": [
+        "n8n",
+        "workflow",
+        "automation",
+        "api"
+    ],
+    "author": "",
+    "license": "MIT"
+}
